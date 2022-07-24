@@ -18,6 +18,7 @@ function Login() {
                     </div>
                     <input id="loginButton" type="submit" value="Login" />
                 </form>
+                <h5>Don't have an account? <a></a></h5>
 
             </div>
             <img src={LoginBackground} id="loginRight" />
