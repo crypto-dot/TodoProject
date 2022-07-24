@@ -1,0 +1,72 @@
+
+#login {
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+#loginRight {
+    max-height: 100vh;
+    max-width: 50vw;
+}
+#loginLeft {
+    font-weight: 400;
+    flex:1;
+    padding-top: clamp(50px,15vh,200px);
+    padding-left: clamp(50px,6vw,100px);
+    padding-right: clamp(50px,8vw,120px);
+}
+#loginLeft h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 3.25rem;
+}
+#loginLeft form {
+    max-width: 500px;
+}
+#loginLeft div {
+    display: flex;
+    flex-direction: column;
+    gap:.75rem;
+}
+#loginLeft div:nth-child(2) {
+    position: relative;
+
+}
+#loginLeft a {
+    position: absolute;
+    text-decoration: none;
+    bottom: 0.775rem;
+    right: 1rem;
+    color: rgba(219, 162,106,.72);
+    font-size: 1rem;
+}
+#loginLeft label {
+    font-family: "Inter", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+#loginLeft input:not(input[type="submit"]) {
+    padding-left: 1rem;
+    border-radius: 10px;
+    height:2.75rem;
+    background-color: white;
+    border: 2px solid #B8B8B8;
+}
+#loginLeft div:not(div:nth-child(2)) {
+    margin-bottom: 1rem;
+}
+#loginButton {
+    font-size: 1.55rem;
+    width: 100%;
+    color:white;
+    margin-top: 3.5rem;
+    border-radius: 10px;
+    height: 2.75rem;
+    background-color: rgba(219, 162,106,.72);
+}
+#loginButton:hover {
+    cursor: pointer;
+    background-color: rgba(189, 139, 90, 0.72);
+}
